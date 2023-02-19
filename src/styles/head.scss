@@ -1,0 +1,62 @@
+@import '../../src/styles/variables/var.scss';
+
+.head-wrap{
+    // background-color: rgb(228, 213, 201);
+
+    .head-grid{
+        // background-color: seagreen;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin: 50px 100px;
+
+        .head-col{
+            // background-color: #6b74be;
+            padding: 10px;
+
+            .head-opt{
+                // background-color: #4A90E2;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 10px;
+
+                button{
+                    @include headbtn();
+                }
+            }
+        }
+
+        .profile-img{
+            text-align: center;
+        }
+
+        .profile-name{
+            // background-color: firebrick;
+            margin: auto;
+
+            h1{
+                font-size: 24px;
+                margin-bottom: 5px;
+            }
+
+            span{
+                font-size: 18px;
+                color: #4A90E2;
+            }
+        }
+
+        .profile-desc{
+            p{
+                line-height: 22px;
+                font-weight: 300;
+                font-size: 14px;
+                color: $primaryColor;
+            }
+        }
+
+        .profile-desc-wrap{
+            font-family: $SegoeUI;
+            // margin: auto;
+        }
+    }
+}

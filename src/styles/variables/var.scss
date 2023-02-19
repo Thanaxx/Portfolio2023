@@ -1,0 +1,22 @@
+$primaryColor:#373737;
+$secondaryColor:#D0CFCF;
+$buttonColor:#D9D9D9;
+$mainWhite: #ffff;
+
+//FONT FAMILY
+$Italiana: 'Italiana', serif;
+$SegoeUI: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+//mixins functions
+//header buttons
+@mixin headbtn{
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: 300;
+    background-color: $buttonColor;
+    border-radius: 3px;
+    font-family: $SegoeUI;
+    cursor: pointer;
+}

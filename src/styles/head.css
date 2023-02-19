@@ -1,0 +1,48 @@
+.head-wrap .head-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 50px 100px;
+}
+.head-wrap .head-grid .head-col {
+  padding: 10px;
+}
+.head-wrap .head-grid .head-col .head-opt {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.head-wrap .head-grid .head-col .head-opt button {
+  border: none;
+  outline: none;
+  padding: 5px 0;
+  font-size: 12px;
+  font-weight: 300;
+  background-color: #D9D9D9;
+  border-radius: 3px;
+  font-family: "Inter", serif;
+  cursor: pointer;
+}
+.head-wrap .head-grid .profile-img {
+  text-align: center;
+}
+.head-wrap .head-grid .profile-name {
+  margin: auto;
+}
+.head-wrap .head-grid .profile-name h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.head-wrap .head-grid .profile-name span {
+  font-size: 18px;
+  color: #4A90E2;
+}
+.head-wrap .head-grid .profile-desc p {
+  line-height: 22px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #373737;
+}
+.head-wrap .head-grid .profile-desc-wrap {
+  font-family: "Inter", serif;
+}/*# sourceMappingURL=head.css.map */

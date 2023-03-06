@@ -1,10 +1,9 @@
 import React from 'react'
-import Webhead from '../components/header/webhead'
 
 function main() {
   return (
     <>
-        <Webhead/>
+        <h1>BODY TEMPLATE NONE</h1>
     </>
   )
 }

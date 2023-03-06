@@ -1,42 +1,49 @@
 @import '../../src/styles/variables/var.scss';
 
 .head-wrap{
-    // background-color: rgb(228, 213, 201);
-
     .head-grid{
-        // background-color: seagreen;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr 2fr;
         grid-gap: 10px;
         margin: 50px 100px;
 
         .head-col{
-            // background-color: #6b74be;
             padding: 10px;
 
             .head-opt{
-                // background-color: #4A90E2;
                 display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-gap: 10px;
+                grid-template-columns: 2fr 2fr 2fr 0.5fr;
+                grid-gap: 15px;
 
                 button{
                     @include headbtn();
+                }
+
+                .dots{
+                    background-color: transparent;
                 }
             }
         }
 
         .profile-img{
             text-align: center;
+            margin: auto;
+
+            img{
+                width: 220px;
+                margin: auto;
+            }
         }
 
         .profile-name{
-            // background-color: firebrick;
             margin: auto;
+            padding-bottom: 15px;
 
             h1{
-                font-size: 24px;
+                font-size: 22px;
                 margin-bottom: 5px;
+                font-weight: 400;
+                color: rgb(66, 66, 66);
             }
 
             span{
@@ -45,10 +52,26 @@
             }
         }
 
+        .profile-count{
+            margin: 10px 0 20px 0;
+            .count-grid{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+
         .profile-desc{
+            .cName{
+                font-weight: 550;
+            }
+
             p{
                 line-height: 22px;
-                font-weight: 300;
+                font-weight: 400;
                 font-size: 14px;
                 color: $primaryColor;
             }

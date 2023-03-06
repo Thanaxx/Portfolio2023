@@ -2,7 +2,8 @@ import React from 'react';
 import {BsPatchCheckFill} from 'react-icons/bs';
 import {MdOutlineKeyboardArrowDown} from 'react-icons/md';
 import {BsThreeDots} from 'react-icons/bs';
-import '../../styles/head.css'
+import '../../styles/head.css';
+import CarouselStacks from '../carousel/carouselStacks';
 
 function webhead() {
   return (
@@ -15,28 +16,36 @@ function webhead() {
 
                 <div className="head-col profile-desc-wrap">
                     <div className="profile-name">
-                        <h1>christeljoy <span><BsPatchCheckFill/></span> </h1>
+                        <div className="head-opt">
+                            <h1>developedbytel<span>  <BsPatchCheckFill/></span> </h1>
+                            <button>Projects <MdOutlineKeyboardArrowDown/></button>
+                            <button>Message</button>
+                            <button className='dots' ><BsThreeDots/></button>
+                        </div>
                     </div>
+
+                    <div className="profile-count">
+                        <div className="count-grid">
+                            <p><strong>10</strong> Repositories </p>
+                            <p><strong>8</strong> Tech Stacks </p>
+                            <p><strong>7</strong> Live Projects </p>
+                        </div>
+                    </div>
+
                     <div className="profile-desc">
-                        <p>Christel Joy A. Abordaje</p>
+                        <p className='cName' >Christel Joy A. Abordaje</p>
                         <p>#Women in Tech</p>
                         <p>Self-taught Front-end Developer</p>
                         <p>Computer Science Degree Holder</p>
                         <p>Career Service Professional Eligibility Holder</p>
-                        <p>Iloilo City, Philippines</p>
-                        <p>Followed Chris Sean, Mark Zuckerberg +114more</p>
-                    </div>
-                </div>
-
-                <div className="head-col">
-                    <div className="head-opt">
-                        <button>Projects <MdOutlineKeyboardArrowDown/></button>
-                        <button>Message</button>
-                        <button><BsThreeDots/></button>
+                        <p>Iloilo City, Philippines</p> <br/>
+                        <p>Followed <strong>Chris Sean, Mark Zuckerberg</strong> +108more</p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <CarouselStacks />
     </>
   )
 }

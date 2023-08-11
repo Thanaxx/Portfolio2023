@@ -73,3 +73,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### used SASS
 npm install -g sass
 
+### FOR CAROUSEL FO TECHSTACK
+npm install react-slick --save
+https://www.npmjs.com/package/react-slick
+https://react-slick.neostack.com/docs/example/multiple-items
+

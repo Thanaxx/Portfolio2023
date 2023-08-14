@@ -4,6 +4,7 @@ import {MdOutlineKeyboardArrowDown} from 'react-icons/md';
 import {BsThreeDots} from 'react-icons/bs';
 import '../../styles/head.css';
 import CarouselStacks from '../carousel/carouselStacks';
+import MainNav from '../../components/nav/mainnav';
 
 function webhead() {
   return (
@@ -46,6 +47,7 @@ function webhead() {
         </div>
 
         <CarouselStacks />
+        <MainNav />
     </>
   )
 }

@@ -1,34 +1,60 @@
 import React from 'react';
 import Slider from 'react-slick';
-import stacks from '../../components/data/stacks'
-import '../../styles/carouselStacks.css'
+import Stacks from '../../components/data/stacks'
+import '../../styles/carouselStacks.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 
 function carouselStacks() {
 
   const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
-      speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 3
+      speed: 900,
+      slidesToShow: 7,
+      slidesToScroll: 2,
+      initialSlide: 0,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
     };
 
   return (
     <>
         <div className="stack-wrap">
           <div className="stack-row">
-              {stacks.map((item, index) => (
-                <>
-                  <Slider {...settings}>
-                    <div>
-                      <img src={item.image} alt="" />
-                      <p>{item.name}</p>
-                    </div>
-                  </Slider>
-                </>
-              ))}
+            <Slider {...settings}>
+             {Stacks.map((items, index) => (
+              <div className="stackCard">
+                <img src={items.image} alt="" />
+                <p>{items.name}</p>
+              </div>
+             ))}
+            </Slider>
           </div>
         </div>
     </>

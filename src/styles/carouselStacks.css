@@ -1,3 +1,20 @@
-.stack-wrap {
-  background-color: darkolivegreen;
+.stack-wrap .stack-row {
+  width: 75%;
+  margin: auto;
+}
+.stack-wrap .stack-row .stackCard img {
+  width: 80px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.stack-wrap .stack-row .stackCard p {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: rgb(63, 63, 63);
+}
+.stack-wrap .slick-prev::before, .stack-wrap .slick-next::before {
+  color: #a3a3a3;
 }/*# sourceMappingURL=carouselStacks.css.map */

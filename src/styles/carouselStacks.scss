@@ -1,10 +1,33 @@
 @import '../../src/styles/variables/var.scss';
 
 .stack-wrap{
-    background-color: darkolivegreen;
+    // background-color: rebeccapurple;
 
     .stack-row{
-        
+        width: 75%;
+        margin: auto;
+
+
+        .stackCard{
+            img{
+                width: 80px;
+                align-items: center;
+                text-align: center;
+                margin: auto;
+                padding-bottom: 10px;
+            }
+
+            p{
+                text-align: center;
+                font-family: $SegoeUI;
+                font-size: 14px;
+                color: rgb(63, 63, 63);
+            }
+        }
+    }
+
+    .slick-prev::before, .slick-next::before{
+        color: #a3a3a3;
     }
 }
 

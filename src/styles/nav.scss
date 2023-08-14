@@ -1,0 +1,47 @@
+@import '../../src/styles/variables/var.scss';
+
+.navWrap{
+    width: 75%;
+    margin: 50px auto;
+    border-top: 1px solid rgba(128, 128, 128, 0.418);
+
+    .navCont{
+        width: 50%;
+        margin: auto;
+        padding: 30px 0;
+
+        ul{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        ul > li {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+
+            .menuIcon{
+                color: $grayish;
+                font-size: 20px;
+                margin: 0 5px;
+            }
+
+            a{
+                font-family: $SegoeUI;
+                font-size: 16px;
+                color: $grayish;
+                text-decoration: none;
+                font-weight: 500;
+                transition: 0.1s ease-in-out;
+            }
+
+            a:hover{
+                color: #202020;
+                font-weight: 700;
+            }
+        }
+    }
+}

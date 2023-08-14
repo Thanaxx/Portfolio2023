@@ -1,0 +1,89 @@
+@import '../../src/styles/variables/var.scss';
+
+.projectWrap{
+
+    .projectCont{
+        width: 50%;
+        margin: auto;
+
+        .projCard{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+
+            .projPoster{
+            
+                .projHead{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    text-align: center;
+                    padding: 15px 0;
+
+                    p{
+                        margin: 0 8px;
+                        font-family: $SegoeUI;
+                        font-size: 18px;
+                        color: $primaryColor;
+                    }
+
+                    img{
+                        width: 60px;
+                    }
+
+                    span{
+                        color: blue;
+                        font-size: 14px;
+                        margin-top: 8px;
+                    }
+                }
+
+                .projPhotos{
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .projIcons{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    text-align: center;
+                    margin-top: 5px;
+
+                    a{
+                        font-size: 30px;
+                        color: $primaryColor;
+                        margin-right: 15px;
+                    }
+                }
+
+                .projDetail{
+
+                    p{
+                        margin: 10px 0;
+                        font-family: $SegoeUI;
+                        font-size: 16px;
+                        color: $primaryColor;
+                        font-weight: 600;
+
+                        span{
+                            font-weight: 400;
+                        }
+                    }
+                }
+
+                .projDate{
+                    p{
+                        margin: 10px 0;
+                        font-family: $SegoeUI;
+                        font-size: 14px;
+                        color: $primaryColor;
+                    }
+                }
+                
+            }
+        }
+    }
+}

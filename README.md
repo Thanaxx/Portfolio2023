@@ -78,3 +78,6 @@ npm install react-slick --save
 https://www.npmjs.com/package/react-slick
 https://react-slick.neostack.com/docs/example/multiple-items
 
+### react-vertical-timeline-component
+https://www.npmjs.com/package/react-vertical-timeline-component
+$ npm i react-vertical-timeline-component

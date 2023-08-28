@@ -1,0 +1,20 @@
+.more-page-wrap {
+  width: 80%;
+  margin: 50px auto;
+}
+.more-page-wrap .about-intro {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.more-page-wrap .about-intro h1 {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.more-page-wrap .about-intro p {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.more-page-wrap .about-history {
+  margin-top: 50px;
+}/*# sourceMappingURL=about.css.map */

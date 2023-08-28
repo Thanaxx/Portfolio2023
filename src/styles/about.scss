@@ -1,0 +1,26 @@
+@import '../../src/styles/variables/var.scss';
+
+.more-page-wrap{
+    width: 80%;
+    margin: 50px auto;
+
+    .about-intro{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+
+        h1{
+            font-size: 40px;
+            font-family: $SegoeUI;
+        }
+
+        p{
+            font-size: 16px;
+            font-family: $SegoeUI;
+        }
+    }
+
+    .about-history{
+        margin-top: 50px;
+    }
+}

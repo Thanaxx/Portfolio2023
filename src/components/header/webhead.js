@@ -4,7 +4,6 @@ import {MdOutlineKeyboardArrowDown} from 'react-icons/md';
 import {BsThreeDots} from 'react-icons/bs';
 import '../../styles/head.css';
 import CarouselStacks from '../carousel/carouselStacks';
-import MainNav from '../../components/nav/mainnav';
 
 function webhead() {
   return (
@@ -18,18 +17,44 @@ function webhead() {
                 <div className="head-col profile-desc-wrap">
                     <div className="profile-name">
                         <div className="head-opt">
-                            <h1>developedbytel<span>  <BsPatchCheckFill/></span> </h1>
-                            <button>Projects <MdOutlineKeyboardArrowDown/></button>
+                            <h1>anonymous<span>  <BsPatchCheckFill/></span> </h1>
+
+                            <button><div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Projects <MdOutlineKeyboardArrowDown/>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="https://nifty-bhaskara-9c7adf.netlify.app/" target='_blank' >WBLD</a></li>
+                                    <li><a class="dropdown-item" href="https://festive-babbage-c7450f.netlify.app/" target='_blank' >MEDCARE</a></li>
+                                    <li><a class="dropdown-item" href="https://zealous-thompson-fd42cd.netlify.app/" target='_blank' >Foodie</a></li>
+                                    <li><a class="dropdown-item" href="https://naughty-ritchie-f772e5.netlify.app/" target='_blank' >FRNTR</a></li>
+                                    <li><a class="dropdown-item" href="https://eloquent-shockley-854149.netlify.app/" target='_blank'>Badiangan</a></li>
+                                    <li><a class="dropdown-item" href="https://rococo-croquembouche-1d0f2e.netlify.app/" target='_blank' >NewsBreak</a></li>
+                                    <li><a class="dropdown-item" href="https://effortless-kheer-3ee7c5.netlify.app/" target='_blank' >NextGen</a></li>
+                                </ul>
+                            </div></button>
+
                             <button>Message</button>
-                            <button className='dots' ><BsThreeDots/></button>
+
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <BsThreeDots/>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/about">About</a></li>
+                                    <li><a class="dropdown-item" href="/services">Services</a></li>
+                                    <li><a class="dropdown-item" href="/contact">Get in touch</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
                     <div className="profile-count">
                         <div className="count-grid">
-                            <p><strong>10</strong> Repositories </p>
-                            <p><strong>8</strong> Tech Stacks </p>
-                            <p><strong>7</strong> Live Projects </p>
+                            <p><strong>10</strong> repositories </p>
+                            <p><strong>8</strong> tech languages </p>
+                            <p><strong>8</strong> personal projects </p>
+                            <p><strong>7</strong> live projects </p>
                         </div>
                     </div>
 
@@ -47,7 +72,6 @@ function webhead() {
         </div>
 
         <CarouselStacks />
-        <MainNav />
     </>
   )
 }

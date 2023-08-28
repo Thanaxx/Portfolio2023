@@ -1,3 +1,6 @@
+.projectWrap {
+  margin: 70px 0;
+}
 .projectWrap .projectCont {
   width: 50%;
   margin: auto;
@@ -40,9 +43,12 @@
   margin-top: 5px;
 }
 .projectWrap .projectCont .projCard .projPoster .projIcons a {
-  font-size: 30px;
+  font-size: 25px;
   color: #373737;
   margin-right: 15px;
+}
+.projectWrap .projectCont .projCard .projPoster .projIcons a:hover {
+  color: rgb(12, 110, 56);
 }
 .projectWrap .projectCont .projCard .projPoster .projDetail p {
   margin: 10px 0;

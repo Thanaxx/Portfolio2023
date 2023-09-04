@@ -22,5 +22,29 @@
 
     .about-history{
         margin-top: 50px;
+
+        .work-card{
+            
+        }
+
+        .work-name{
+            font-size: 28px;
+            color: #eeeeee;
+        }
+
+        .company-name{
+            font-size: 22px;
+            color: #eeeeee;
+            line-height: 1;
+        }
+
+        .address-name{
+            color: #eeeeee;
+        }
+
+        .resp-cont{
+            color: #bbbbbb;
+            font-size: 14px;
+        }
     }
 }

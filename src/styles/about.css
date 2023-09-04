@@ -17,4 +17,20 @@
 }
 .more-page-wrap .about-history {
   margin-top: 50px;
+}
+.more-page-wrap .about-history .work-name {
+  font-size: 28px;
+  color: #eeeeee;
+}
+.more-page-wrap .about-history .company-name {
+  font-size: 22px;
+  color: #eeeeee;
+  line-height: 1;
+}
+.more-page-wrap .about-history .address-name {
+  color: #eeeeee;
+}
+.more-page-wrap .about-history .resp-cont {
+  color: #bbbbbb;
+  font-size: 14px;
 }/*# sourceMappingURL=about.css.map */

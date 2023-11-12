@@ -1,8 +1,4 @@
 import React from 'react';
-import {ImGithub} from 'react-icons/im'
-import {BsLinkedin} from 'react-icons/bs';
-import { AiOutlineInstagram } from 'react-icons/ai';
-import { BiLogoFacebookSquare } from 'react-icons/bi';
 import '../../styles/contact.css';
 import {FaMobileAlt} from 'react-icons/fa';
 import {ImLocation2} from 'react-icons/im';
@@ -44,24 +40,11 @@ function contact() {
                     <input type="email" name="" id="" placeholder='EMAIL ADDRESS' />
                     <input type="number" name="" id="" placeholder='PHONE NUMBER' />
                     <textarea name="" id="" cols="30" rows="5" placeholder='MESSAGE'></textarea>
-                    
+
                     <div className="send-inquiry">
                         <button>Send message</button>
                     </div>
                 </form>
-            </div>
-
-            {/**SOCIAL MEDIA */}
-            <div className="socmed-wrap">
-                <div className="socmed-title">
-                    <h1>Connect with us !</h1>
-                </div>
-                <div className="socmed-icons">
-                    <ImGithub />
-                    <BsLinkedin />
-                    <AiOutlineInstagram />
-                    <BiLogoFacebookSquare />
-                </div>
             </div>
         </div>
     </>

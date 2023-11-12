@@ -5,6 +5,7 @@ import About from './pages/about/about';
 import Webhead from '../src/components/header/webhead';
 import Service from './pages/services/service';
 import Contact from './pages/contacts';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/contact' element={<Contact/>} />
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </>
   );
 }

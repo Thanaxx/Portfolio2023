@@ -7,17 +7,37 @@
         grid-gap: 10px;
         margin: 50px 100px;
 
+        @media screen and (max-width: 768px){
+            margin: 30px 2px;
+            grid-template-columns: none;
+        }
+
         .head-col{
             padding: 10px;
+
+            @media screen and (max-width: 768px){
+                padding: 0 10px;
+            }
 
             .head-opt{
                 display: grid;
                 grid-template-columns: 2fr 2fr 2fr 0.5fr;
                 grid-gap: 15px;
 
+                @media screen and (max-width: 768px){
+                    grid-template-columns: 1fr 1fr 1fr;
+                    margin: auto;
+                }
+
                 .prj-icon{
                     font-size: 20px;
                     color: #6b6b6b;
+                }
+
+                @media screen and (max-width: 768px){
+                    h1{
+                        display: none
+                    }
                 }
 
                 button{
@@ -45,17 +65,34 @@
 
         .profile-img{
             text-align: center;
-            margin: auto;
+
+            @media screen and (max-width: 768px){
+                text-align: left;
+            }
 
             img{
                 width: 220px;
                 margin: auto;
+
+                @media screen and (max-width: 768px){
+                    width: 50%;
+                }
             }
         }
 
         .profile-name{
             margin: auto;
             padding-bottom: 15px;
+
+            .display-name-mbl{
+                display: none;
+
+                @media screen and (max-width: 768px){
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+            }
 
             h1{
                 font-size: 22px;
@@ -72,12 +109,17 @@
 
         .profile-count{
             margin: 10px 0 20px 0;
+
             .count-grid{
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
 
                 p{
                     font-size: 16px;
+
+                    @media screen and (max-width: 768px){
+                        font-size: 12px;
+                    }
                 }
             }
         }

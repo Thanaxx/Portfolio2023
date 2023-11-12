@@ -16,6 +16,7 @@ function webhead() {
 
                 <div className="head-col profile-desc-wrap">
                     <div className="profile-name">
+                    <h1 className='display-name-mbl' >anonymous<span><BsPatchCheckFill/></span> </h1>
                         <div className="head-opt">
                             <h1>anonymous<span><BsPatchCheckFill/></span> </h1>
 

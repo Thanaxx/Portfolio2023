@@ -26,9 +26,9 @@ function carouselStacks() {
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 768,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 4,
             slidesToScroll: 2,
             initialSlide: 2
           }
@@ -36,8 +36,8 @@ function carouselStacks() {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToShow: 4,
+            slidesToScroll: 2
           }
         }
       ]

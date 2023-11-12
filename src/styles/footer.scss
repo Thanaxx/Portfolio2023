@@ -4,9 +4,17 @@
     background-color: $primaryColor;
     padding: 50px 100px;
 
+    @media screen and (max-width: 768px){
+        padding: 50px 10px;
+    }
+
     .footer-tag{
         width: 50%;
         margin: auto;
+
+        @media screen and (max-width: 768px){
+            width: 100%;
+        }
 
         h1{
             text-align: center;

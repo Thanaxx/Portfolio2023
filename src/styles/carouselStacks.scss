@@ -1,11 +1,14 @@
 @import '../../src/styles/variables/var.scss';
 
 .stack-wrap{
-    // background-color: rebeccapurple;
 
     .stack-row{
         width: 75%;
         margin: auto;
+
+        @media screen and (max-width: 768px) {
+            width: 85%;
+        }
 
 
         .stackCard{
@@ -15,6 +18,10 @@
                 text-align: center;
                 margin: auto;
                 padding-bottom: 10px;
+
+                @media screen and (max-width: 768px) {
+                    width: 60px;
+                }
             }
 
             p{
@@ -22,6 +29,11 @@
                 font-family: $SegoeUI;
                 font-size: 14px;
                 color: rgb(63, 63, 63);
+
+                @media screen and (max-width: 768px) {
+                    font-size: 12px;
+
+                }
             }
         }
     }

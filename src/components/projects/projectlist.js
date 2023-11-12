@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../styles/project.css';
 import projects from '../data/projects';
-import {BsHeart} from 'react-icons/bs'
-import {BsGithub} from 'react-icons/bs'
-import {BsSend} from 'react-icons/bs'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import {BsHeart} from 'react-icons/bs';
+import {BsGithub} from 'react-icons/bs';
+import {FiLink} from 'react-icons/fi';
+import {BsPatchCheckFill} from 'react-icons/bs';
 
 function projectlist() {
   return (
@@ -27,7 +27,7 @@ function projectlist() {
                   <div className="projIcons">
                     <a href="/"><BsHeart /></a>
                     <a href="/"><BsGithub /></a>
-                    <a href="/"><BsSend /></a>
+                    <a href="/"><FiLink /></a>
                   </div>
 
                   <div className="projDetail">

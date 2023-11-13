@@ -8,12 +8,21 @@
         grid-template-columns: repeat(3, 1fr);
         padding: 50px;
 
+        @media screen and (max-width: 768px){
+            grid-template-columns: repeat(1, 1fr);
+            padding: 50px 10px;
+        }
+
         .service-card{
             background-color: #E3E3E3;
             margin: 0 10px;
             text-align: center;
             padding: 70px 10px;
             border-radius: 3px;
+
+            @media screen and (max-width: 768px){
+                margin: 15px 0;
+            }
 
             p{
 
@@ -40,6 +49,10 @@
             width: 60%;
             margin: auto;
             font-family: $SegoeUI;
+
+            @media screen and (max-width: 768px){
+                width: 95%;
+            }
         }
 
         h3{

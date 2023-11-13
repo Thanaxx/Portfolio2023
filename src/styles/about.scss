@@ -4,14 +4,26 @@
     width: 80%;
     margin: 50px auto;
 
+    @media screen and (max-width: 768px) {
+        width: 95%;
+    }
+
     .about-intro{
         text-align: center;
         width: 80%;
         margin: auto;
 
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+
         h1{
             font-size: 40px;
             font-family: $SegoeUI;
+
+            @media screen and (max-width: 768px) {
+                font-size: 30px;
+            }
         }
 
         p{
@@ -22,10 +34,6 @@
 
     .about-history{
         margin-top: 50px;
-
-        .work-card{
-            
-        }
 
         .work-name{
             font-size: 28px;

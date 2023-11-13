@@ -11,7 +11,7 @@ function webhead() {
         <div className="head-wrap">
             <div className="head-grid">
                 <div className="head-col profile-img">
-                    <img src="/images/Profile.png" alt="portfolio profile" />
+                    <img src="/images/tel-ig.png" alt="portfolio profile" />
                 </div>
 
                 <div className="head-col profile-desc-wrap">

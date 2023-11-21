@@ -101,7 +101,7 @@ function webhead() {
                                                     <ul>
                                                     <li><a href="/about"> About </a></li>
                                                     <li><a href="/services#srvc"> Services </a></li>
-                                                    <li><a href="/resume"> Resume </a></li>
+                                                    <li><a href="https://drive.google.com/file/d/1PFs_k3g7kMJNKT98-UEm7PiSYpTIhvjx/view?usp=sharing"> Resume </a></li>
                                                     <li><a href="/contact" > Get in touch </a></li>
                                                     </ul>
                                                 </div>

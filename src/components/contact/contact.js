@@ -7,7 +7,7 @@ import {IoIosCall} from 'react-icons/io';
 function contact() {
   return (
     <>
-        <div className="contact-wrap">
+        <div className="contact-wrap" id="sendmessage">
             <div className="contact-title">
                 <h1>Get in touch with me!</h1>
             </div>

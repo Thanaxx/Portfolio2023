@@ -34,7 +34,7 @@ function webhead() {
                                         </div>
                                         <div className="modal-profile">
                                             <div className="modal-profile-image">
-                                                <img src="/images/Profile.png" alt="" />
+                                                <img src="/images/tel-ig.png" alt="" />
                                             </div>
                                             <div className="modal-profile-name">
                                                 <p>Anonymous</p>
@@ -99,10 +99,10 @@ function webhead() {
                                             <div class="modal-body">
                                                 <div className="more-opt">
                                                     <ul>
-                                                    <li><a href="/about"> About </a></li>
+                                                    <li><a href="/about#personalinfo"> About </a></li>
                                                     <li><a href="/services#srvc"> Services </a></li>
                                                     <li><a href="https://drive.google.com/file/d/1PFs_k3g7kMJNKT98-UEm7PiSYpTIhvjx/view?usp=sharing"> Resume </a></li>
-                                                    <li><a href="/contact" > Get in touch </a></li>
+                                                    <li><a href="/contact#sendmessage" > Get in touch </a></li>
                                                     </ul>
                                                 </div>
                                             </div>

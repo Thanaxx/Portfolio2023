@@ -1,7 +1,7 @@
 const projects = [
     {
         date: '2022',
-        image: '/images/projects/1.png',
+        image: '/images/projects/wbuild.png',
         githublink: 'https://github.com/Thanaxx',
         liveproject: 'https://nifty-bhaskara-9c7adf.netlify.app/',
         subject: 'WBLD',
@@ -12,7 +12,7 @@ const projects = [
 
     {
         date: '2022',
-        image: '/images/projects/2.png',
+        image: '/images/projects/mdcr.png',
         githublink: 'https://github.com/Thanaxx',
         liveproject: 'https://festive-babbage-c7450f.netlify.app/',
         subject: 'MEDCARE',
@@ -23,7 +23,7 @@ const projects = [
 
     {
         date: '2022',
-        image: '/images/projects/3.png',
+        image: '/images/projects/restu.png',
         githublink: 'https://github.com/Thanaxx',
         liveproject: 'https://zealous-thompson-fd42cd.netlify.app/',
         subject: 'Foodie',
@@ -34,7 +34,7 @@ const projects = [
 
     {
         date: '2022',
-        image: '/images/projects/4.jpg',
+        image: '/images/projects/frntr.png',
         githublink: 'https://github.com/Thanaxx',
         liveproject: 'https://naughty-ritchie-f772e5.netlify.app/',
         subject: 'FRNTR',
@@ -45,7 +45,7 @@ const projects = [
 
     {
         date: '2022',
-        image: '/images/projects/5.jpg',
+        image: '/images/projects/badiangan.png',
         githublink: 'https://github.com/Thanaxx',
         liveproject: 'https://zealous-thompson-fd42cd.netlify.app/',
         subject: 'Badiangan',
@@ -56,18 +56,7 @@ const projects = [
 
     {
         date: '2022',
-        image: '/images/projects/6.jpg',
-        githublink: 'https://github.com/Thanaxx',
-        liveproject: 'https://naughty-ritchie-f772e5.netlify.app/',
-        subject: 'FRNTR',
-        caption: 'An e-commerce website that allows you to order and pay for home decor from the comfort of your own home.',
-        subjectB: 'STACKS',
-        captionB: 'HTML5, CSS3, and JavaScript'
-    },
-
-    {
-        date: '2022',
-        image: '/images/projects/7.jpg',
+        image: '/images/projects/nws.png',
         githublink: 'https://github.com/Thanaxx',
         liveproject: 'https://rococo-croquembouche-1d0f2e.netlify.app/',
         subject: 'NewsBreak',
@@ -78,7 +67,7 @@ const projects = [
 
     {
         date: '2022',
-        image: '/images/projects/8.png',
+        image: '/images/projects/crypto.png',
         githublink: 'https://github.com/Thanaxx',
         liveproject: 'https://effortless-kheer-3ee7c5.netlify.app/',
         subject: 'NextGen',

@@ -15,7 +15,7 @@ function projectlist() {
               {projects.map((items, index) => (
                 <div className="projPoster">
                   <div className="projHead">
-                    <img src="/images/Profile.png" alt="" />
+                    <img src="/images/tel-ig.png" alt="" />
                     <p>christeljoy</p>
                     <span><BsPatchCheckFill/></span>
                   </div>

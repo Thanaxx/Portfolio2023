@@ -7,7 +7,7 @@ import {AiOutlineCodepenCircle} from 'react-icons/ai';
 function more() {
   return (
     <>
-        <div className="more-page-wrap">
+        <div className="more-page-wrap" id='personalinfo'>
             <div className="about-intro">
                 <h1>GET TO KNOW MORE ABOUT ME AS A DEV</h1>
                 <p>“I believe in access to opportunity As the world evolves, so does the way we work. Joining a distributed team offers tech talent access to thousands of new job opportunities while companies stay ahead of the curve with remote work.”</p>

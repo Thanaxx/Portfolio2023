@@ -10,13 +10,15 @@ function webhead() {
     <>
         <div className="head-wrap">
             <div className="head-grid">
-                <div className="head-col profile-img">
-                    <img src="/images/tel-ig.png" alt="portfolio profile" />
-                </div>
+                <button class="story-btn" type="button" data-bs-toggle="modal" data-bs-target="#storyModal">
+                    <div className="head-col profile-img">
+                        <img src="/images/tel-ig.png" alt="portfolio profile" />
+                    </div>
+                </button>
 
                 <div className="head-col profile-desc-wrap">
                     <div className="profile-name">
-                    <h1 className='display-name-mbl' >anonymous<span><BsPatchCheckFill/></span> </h1>
+                    <h1 className='display-name-mbl'>anonymous<span><BsPatchCheckFill/></span> </h1>
                         <div className="head-opt">
                             <h1>anonymous<span><BsPatchCheckFill/></span> </h1>
 
@@ -130,6 +132,42 @@ function webhead() {
                         <p>Career Service Professional Eligibility Holder</p>
                         <p>Iloilo City, Philippines</p> <br/>
                         <p>Followed <strong>Chris Sean, Mark Zuckerberg</strong> +108more</p>
+                    </div>
+                </div>
+            </div>
+
+            {/**STORY */}
+            <div class="modal fade more-modal-body" id="storyModal" tabindex="-1" aria-labelledby="storyModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="/images/story/stry.jpg" alt="" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/images/story/stry1.jpg" alt="" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/images/story/stry2.jpg" alt="" />
+                                </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

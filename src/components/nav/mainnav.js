@@ -19,7 +19,7 @@ function mainnav() {
                     </li>
 
                     <li>
-                        <MdContactSupport className='menuIcon' /><a href="/">CONTACT</a>
+                        <MdContactSupport className='menuIcon'/><a href="/">CONTACT</a>
                     </li>
                 </ul>
             </div>

@@ -97,7 +97,7 @@ function webhead() {
                                 {/**ABOUT MODAL */}
                                 <div class="modal fade more-modal-body" id="moreModal" tabindex="-1" aria-labelledby="moreModal" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
-                                        <div class="modal-content">
+                                        <div class="modal-content-b">
                                             <div class="modal-body">
                                                 <div className="more-opt">
                                                     <ul>
@@ -132,6 +132,15 @@ function webhead() {
                         <p>Career Service Professional Eligibility Holder</p>
                         <p>Iloilo City, Philippines</p> <br/>
                         <p>Followed <strong>Chris Sean, Mark Zuckerberg</strong> +108more</p>
+                    </div>
+
+                    <div className="profile-count-b">
+                        <div className="count-grid-b">
+                            <p><strong>10</strong> <br /> repositories </p>
+                            <p><strong>8</strong> <br /> tech languages </p>
+                            <p><strong>8</strong> <br /> personal projects </p>
+                            <p><strong>7</strong> <br /> live projects </p>
+                        </div>
                     </div>
                 </div>
             </div>

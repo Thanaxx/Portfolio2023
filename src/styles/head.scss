@@ -90,7 +90,7 @@
             outline: none;
 
             @media screen and (max-width: 768px){
-                width: 200px;
+                width: 150px;
                 height: auto;
             }
         }
@@ -101,8 +101,9 @@
 
             @media screen and (max-width:768px){
                 position: absolute;
-                top: 80px;
-                right: 10px;
+                top: 60px;
+                right: 0px;
+                left: 150px;
             }
 
             .display-name-mbl{
@@ -111,7 +112,7 @@
                 @media screen and (max-width: 768px){
                     display: block;
                     width: 100%;
-                    margin-bottom: 20px;
+                    margin-bottom: 10px;
                 }
             }
 
@@ -119,12 +120,23 @@
                 font-size: 22px;
                 margin-bottom: 5px;
                 font-weight: 400;
-                color: rgb(27, 27, 27);
+                color: #1b1b1b;
+
+                @media screen and (max-width:768px){
+                    font-size: 18px;
+                    margin-bottom: 0px;
+                }
             }
 
             span{
                 font-size: 17px;
                 color: #4A90E2;
+                margin-left: 3px;
+
+                @media screen and (max-width:768px){
+                    font-size: 15px;
+                    margin-bottom: 0px;
+                }
             }
         }
 

@@ -139,7 +139,7 @@ function webhead() {
                         <p><strong>10 <br /></strong> github repositories </p>
                             <p><strong>8 <br /></strong> programming languages </p>
                             <p><strong>8 <br /></strong> personal projects </p>
-                            <p><strong>7 <br /></strong> working projects </p>
+                            <p><strong>7 <br /></strong> work projects </p>
                         </div>
                     </div>
                 </div>

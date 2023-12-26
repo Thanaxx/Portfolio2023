@@ -131,7 +131,7 @@ function webhead() {
                         <p>Computer Science Degree Holder</p>
                         <p>Career Service Professional Eligibility Holder</p>
                         <p>Iloilo City, Philippines</p> <br/>
-                        <p>Followed <strong>Chris Sean, Mark Zuckerberg</strong> +108more</p>
+                        <p className='followers'>Followed <strong>Chris Sean, Mark Zuckerberg</strong> +108more</p>
                     </div>
 
                     <div className="profile-count-b">

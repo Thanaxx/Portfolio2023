@@ -54,7 +54,7 @@
                     @media screen and (max-width: 400px) {
                         font-size: 12px;
                         font-weight: 400;
-                        color: red;
+                        color: #3f3f3f;
                     }
                 }
 
@@ -222,6 +222,12 @@
 
                 @media screen and (max-width: 768px){
                     line-height: 5px;
+                }
+            }
+
+            .followers{
+                @media screen and (max-width: 768px){
+                    padding-bottom: 10px;
                 }
             }
         }

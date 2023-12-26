@@ -38,16 +38,28 @@
         .work-name{
             font-size: 28px;
             color: #eeeeee;
+
+            @media screen and (max-width: 768px) {
+                font-size: 18px;
+            }
         }
 
         .company-name{
             font-size: 22px;
             color: #eeeeee;
             line-height: 1;
+
+            @media screen and (max-width: 768px) {
+                font-size: 15px;
+            }
         }
 
         .address-name{
             color: #eeeeee;
+
+            @media screen and (max-width: 768px) {
+                font-size: 15px;
+            }
         }
 
         .resp-cont{

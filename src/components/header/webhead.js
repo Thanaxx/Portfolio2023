@@ -97,14 +97,14 @@ function webhead() {
                                 {/**ABOUT MODAL */}
                                 <div class="modal fade more-modal-body" id="moreModal" tabindex="-1" aria-labelledby="moreModal" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
-                                        <div class="modal-content-b">
+                                        <div class="modal-content">
                                             <div class="modal-body">
                                                 <div className="more-opt">
                                                     <ul>
-                                                    <li><a href="/about#personalinfo"> About </a></li>
-                                                    <li><a href="/services#srvc"> Services </a></li>
-                                                    <li><a href="https://drive.google.com/file/d/1PFs_k3g7kMJNKT98-UEm7PiSYpTIhvjx/view?usp=sharing"> Resume </a></li>
-                                                    <li><a href="/contact#sendmessage" > Get in touch </a></li>
+                                                        <li><a href="/about#personalinfo"> About </a></li>
+                                                        <li><a href="/services#srvc"> Services </a></li>
+                                                        <li><a href="https://drive.google.com/file/d/1PFs_k3g7kMJNKT98-UEm7PiSYpTIhvjx/view?usp=sharing"> Resume </a></li>
+                                                        <li><a href="/contact#sendmessage" > Get in touch </a></li>
                                                     </ul>
                                                 </div>
                                             </div>

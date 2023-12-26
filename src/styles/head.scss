@@ -381,14 +381,6 @@
             border: none;
         }
 
-        .modal-content-b{
-            background-color: transparent;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            margin: auto;
-            border: none;
-        }
 
         .carousel-control-next, .carousel-control-prev{
             width: 50px;
@@ -415,11 +407,16 @@
 
             .carousel-item{
                 text-align: center;
+
                 img{
                     height: 90vh;
                     width: 80%;
                     margin: auto;
                     text-align: center;
+
+                    @media screen and (max-width: 768px) {
+                        height: auto;
+                    }
                 }
             }
 

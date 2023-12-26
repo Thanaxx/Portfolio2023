@@ -25,7 +25,7 @@
                 grid-gap: 15px;
 
                 @media screen and (max-width: 768px){
-                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-columns: 1fr 1fr 0.5fr;
                     margin: auto;
                 }
 
@@ -55,6 +55,11 @@
                 .ig-btn-a{
                     background-color: transparent;
                     font-size: 15px;
+
+                    @media screen and (max-width: 768px) {
+                        font-size: 12px;
+                    }
+                
                 }
 
                 .dropdown-toggle{
@@ -156,7 +161,7 @@
                     font-size: 15px;
 
                     @media screen and (max-width: 768px){
-                        font-size: 12px;
+                        font-size: 10px;
                     }
                 }
             }
@@ -208,6 +213,10 @@
                 font-weight: 400;
                 font-size: 14px;
                 color: $primaryColor;
+
+                @media screen and (max-width: 768px){
+                    line-height: 5px;
+                }
             }
         }
 

@@ -117,10 +117,10 @@ function webhead() {
 
                     <div className="profile-count">
                         <div className="count-grid">
-                            <p><strong>10</strong> repositories </p>
+                            <p><strong>10</strong> github repositories </p>
                             <p><strong>8</strong> tech languages </p>
                             <p><strong>8</strong> personal projects </p>
-                            <p><strong>7</strong> live projects </p>
+                            <p><strong>7</strong> work projects </p>
                         </div>
                     </div>
 
@@ -136,10 +136,10 @@ function webhead() {
 
                     <div className="profile-count-b">
                         <div className="count-grid-b">
-                            <p><strong>10</strong> <br /> repositories </p>
-                            <p><strong>8</strong> <br /> tech languages </p>
-                            <p><strong>8</strong> <br /> personal projects </p>
-                            <p><strong>7</strong> <br /> live projects </p>
+                        <p><strong>10 <br /></strong> github repositories </p>
+                            <p><strong>8 <br /></strong> programming languages </p>
+                            <p><strong>8 <br /></strong> personal projects </p>
+                            <p><strong>7 <br /></strong> working projects </p>
                         </div>
                     </div>
                 </div>

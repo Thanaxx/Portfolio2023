@@ -9,21 +9,22 @@
     }
 
     .footer-tag{
-        width: 50%;
-        margin: auto;
-
-        @media screen and (max-width: 768px){
-            width: 100%;
-        }
+        width: 100%;
+        margin-bottom: 20px;
 
         h1{
             text-align: center;
             color: $mainWhite;
-        }
-    }
+            font-size: 35px;
 
-    hr{
-        color: #969696
+            @media screen and (max-width: 768px){
+                font-size: 18px;
+            }
+
+            span{
+                font-weight: 100;
+            }
+        }
     }
 
     .socmed-wrap{
@@ -38,12 +39,19 @@
         }
 
         .socmed-icons{
-            font-size: 25px;
+            font-size: 27px;
             text-align: center;
-            color: white;
+
+            @media screen and (max-width: 768px){
+                font-size: 20px;
+            }
+
+            a{
+                color: white;
+            }
 
             .soc{
-                margin: 0 10px;
+                margin: 0 7px;
             }
         }
     }
@@ -70,7 +78,7 @@
 
     .copyright{
         text-align: center;
-        margin-top: 30px;
+        margin-top: 10px;
 
         h4{
             font-size: 18px;

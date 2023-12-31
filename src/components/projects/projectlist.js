@@ -26,8 +26,8 @@ function projectlist() {
 
                   <div className="projIcons">
                     <a href="/"><BsHeart /></a>
-                    <a href="/"><BsGithub /></a>
-                    <a href="/"><FiLink /></a>
+                    <a href={items.githublink}><BsGithub /></a>
+                    <a href={items.liveproject}><FiLink /></a>
                   </div>
 
                   <div className="projDetail">

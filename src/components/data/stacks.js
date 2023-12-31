@@ -30,6 +30,16 @@ const techs = [
     },
 
     {
+        image: '/images/stacks/Nextjs.png',
+        name: 'NextJS'
+    },
+
+    {
+        image: '/images/stacks/Tailwindcss.png',
+        name: 'Tailwind CSS'
+    },
+
+    {
         image: '/images/stacks/Figma.png',
         name: 'Figma'
     },
@@ -62,6 +72,16 @@ const techs = [
     {
         image: '/images/stacks/Bootstrap.png',
         name: 'Bootstrap'
+    },
+
+    {
+        image: '/images/stacks/Nextjs.png',
+        name: 'NextJS'
+    },
+
+    {
+        image: '/images/stacks/Tailwindcss.png',
+        name: 'Tailwind CSS'
     },
 
     {

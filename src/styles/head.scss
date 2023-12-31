@@ -34,11 +34,17 @@
                     color: #6b6b6b;
                 }
 
+                a{
+                    text-decoration: none;
+                    color: $primaryColor;
+                }
+
                 @media screen and (max-width: 768px){
                     h1{
                         display: none
                     }
                 }
+                
 
                 button{
                     @include headbtn();
@@ -119,6 +125,11 @@
 
             .display-name-mbl{
                 display: none;
+
+                a{
+                    text-decoration: none;
+                    color: $primaryColor;
+                }
 
                 @media screen and (max-width: 768px){
                     display: block;
@@ -312,6 +323,10 @@
             border-bottom: none;
         }
 
+        .modal-header{
+            border-bottom: none;
+        }
+
         .btn-close{
             background-color: transparent;
             margin-top: 1px;
@@ -327,6 +342,29 @@
             }
         }
 
+        .modal-profile{
+            text-align: center;
+            padding-top: 5px;
+
+            .modal-profile-image{
+                img{
+                    width: 60px;
+                }
+            }
+
+            .modal-profile-name{
+                margin-top: 10px;
+
+                h3{
+                    color: $primaryColor;
+                }
+
+                p{
+                    font-weight: 500;
+                }
+            }
+        }
+
         .message-form{
 
             form{
@@ -335,20 +373,22 @@
                     width: 100%;
                     padding: 5px 8px;
                     margin-bottom: 10px;
-                    outline: none;
+                    outline: 1px solid gray;
                     font-size: 14px;
-                    background-color: $secondaryColor;
-                    border-radius: 4px;
+                    background-color: transparent;
+                    border-radius: 2px;
+                    text-align: center;
                 }
 
                 textarea{
                     width: 100%;
                     padding: 5px 8px;
                     margin-bottom: 10px;
-                    outline: none;
+                    outline: 1px solid gray;
                     font-size: 14px;
-                    background-color: $secondaryColor;
+                    background-color: transparent;
                     border-radius: 2px;
+                    text-align: center;
                 }
 
                 .send-form{
@@ -356,13 +396,14 @@
 
                     button{
                         background-color: #2b2b2b;
-                        width: 45%;
+                        width: 100%;
                         align-items: center;
-                        padding: 5px;
+                        padding: 6px 5px;
                         color: white;
                         font-weight: 300;
                         margin-top: 10px;
                         margin-bottom: 15px;
+                        font-weight: 500s;
                     }
                 }
             }
@@ -377,14 +418,42 @@
             display: flex;
             justify-content: center;
             margin: auto;
-            background-color: transparent;
+            background-color: white;
             border: none;
+            padding: 15px;
         }
 
+        .modal-header{
+            border-bottom: none;
+        }
 
         .carousel-control-next, .carousel-control-prev{
             width: 50px;
         }
+
+        .modal-profile{
+            text-align: center;
+            padding-top: 5px;
+
+            .modal-profile-image{
+                img{
+                    width: 60px;
+                }
+            }
+
+            .modal-profile-name{
+                margin-top: 10px;
+
+                h3{
+                    color: $primaryColor;
+                }
+
+                p{
+                    font-weight: 500;
+                }
+            }
+        }
+
         
         .modal-body{
             padding: 0;
@@ -428,18 +497,28 @@
                     margin: 0;
                     padding: 0;
 
+                    a{
+                        width: 100%;
+                        padding: 10px 0;
+                        text-decoration: none;
+                        font-size: 14px;
+                        transition: 0.3s ease-in-out;
+                    }
+
+                    :hover{
+                        transform: scale(1.02);
+                    }
+
                     li{
                         list-style-type: none;
                         text-align: center;
-                        padding: 10px 0;
-                        border-bottom: 1px solid rgba(128, 128, 128, 0.384);
-
-                        a{
-                            width: 100%;
-                            padding: 10px 0;
-                            text-decoration: none;
-                            color: $primaryColor;
-                        }
+                        padding: 7px 0;
+                        background-color: $primaryColor;
+                        margin: 10px 0;
+                        border-radius: 2xpx;
+                        color: $mainWhite;
+                        transition: 0.2s ease-in-out;
+                        border-radius: 2px;
 
                         a:hover{
                             font-weight: 500;

@@ -18,9 +18,9 @@ function webhead() {
 
                 <div className="head-col profile-desc-wrap">
                     <div className="profile-name">
-                    <h1 className='display-name-mbl'>anonymous<span><BsPatchCheckFill/></span> </h1>
+                    <h1 className='display-name-mbl'> <a href="/">anonymous</a> <span><BsPatchCheckFill/></span> </h1>
                         <div className="head-opt">
-                            <h1>anonymous<span><BsPatchCheckFill/></span> </h1>
+                            <h1><a href="/">anonymous</a><span><BsPatchCheckFill/></span> </h1>
 
                             <button class="ig-btn" type="button" data-bs-toggle="modal" data-bs-target="#projModal">
                                 Projects <MdOutlineKeyboardArrowDown class="prj-icon" />
@@ -70,17 +70,24 @@ function webhead() {
                                         <div class="modal-header">
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
+                                        <div className="modal-profile">
+                                            <div className="modal-profile-image">
+                                                <img src="/images/tel-ig.png" alt="" />
+                                            </div>
+                                            <div className="modal-profile-name">
+                                                <h4>Get in touch with me!</h4>
+                                                <p>I believe in access to opportunity As the world evolves, so does the way we work.</p>
+                                            </div>
+                                        </div>
+
                                     <div class="modal-body">
-                                       <div className="message-title">
-                                            <p>MESSAGE ME NOW</p>
-                                       </div>
                                        <div className="message-form">
                                             <form class="form-hadler">
-                                                <input type="text" name="username" id="" placeholder='Name' />
-                                                <input type="email" name="username" id="" placeholder='Email Address' />
-                                                <textarea name="message" id="" cols="30" rows="3" placeholder='Message'></textarea>
+                                                <input type="text" name="username" id="" placeholder='NAME' />
+                                                <input type="email" name="username" id="" placeholder='EMAIL ADDRESS' />
+                                                <textarea name="message" id="" cols="30" rows="3" placeholder='MESSAGE'></textarea>
                                                 <div className="send-form">
-                                                    <button type="submit">Send</button>
+                                                    <button type="submit">SEND</button>
                                                 </div>
                                             </form>
                                        </div>
@@ -98,13 +105,25 @@ function webhead() {
                                 <div class="modal fade more-modal-body" id="moreModal" tabindex="-1" aria-labelledby="moreModal" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
                                         <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div className="modal-profile">
+                                                <div className="modal-profile-image">
+                                                    <img src="/images/tel-ig.png" alt="" />
+                                                </div>
+                                                <div className="modal-profile-name">
+                                                    <h4>Wanna know more about me?</h4>
+                                                    <p>I believe in access to opportunity As the world evolves, so does the way we work.</p>
+                                                </div>
+                                            </div>
                                             <div class="modal-body">
                                                 <div className="more-opt">
                                                     <ul>
-                                                        <li><a href="/about#personalinfo"> About </a></li>
-                                                        <li><a href="/services#srvc"> Services </a></li>
-                                                        <li><a href="https://drive.google.com/file/d/1PFs_k3g7kMJNKT98-UEm7PiSYpTIhvjx/view?usp=sharing"> Resume </a></li>
-                                                        <li><a href="/contact#sendmessage" > Get in touch </a></li>
+                                                        <a href="/about#personalinfo"> <li>ABOUT DEV</li> </a>
+                                                        <a href="/services#srvc"> <li>OFFERED SERVICES</li> </a>
+                                                        <a href="https://drive.google.com/file/d/1PFs_k3g7kMJNKT98-UEm7PiSYpTIhvjx/view?usp=sharing"> <li>RESUME / CV</li> </a>
+                                                        <a href="/contact#sendmessage"> <li>CONTACT</li> </a>
                                                     </ul>
                                                 </div>
                                             </div>

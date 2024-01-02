@@ -167,7 +167,7 @@ function webhead() {
             {/**STORY */}
             <div class="modal fade more-modal-body" id="storyModal" tabindex="-1" aria-labelledby="storyModal" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
+                    <div class="modal-content story-content">
                         <div class="modal-body">
                         <div id="carouselExampleIndicators" class="carousel slide">
                             <div class="carousel-indicators">

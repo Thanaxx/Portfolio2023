@@ -1,11 +1,50 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import {BsPatchCheckFill} from 'react-icons/bs';
 import {MdOutlineKeyboardArrowDown, MdKeyboardArrowRight} from 'react-icons/md';
 import {BsThreeDots} from 'react-icons/bs';
 import '../../styles/head.css';
 import CarouselStacks from '../carousel/carouselStacks';
+import emailjs from '@emailjs/browser'
+import Swal from 'sweetalert2';
+import 'sweetalert2/dist/sweetalert2.min.css';
 
-function webhead() {
+function Webhead() {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+
+      emailjs.sendForm('service_caektf9', 'template_8635t7s', form.current, 'V3BHhaTHgYS6Uv291')
+        .then(() => {
+            Swal.fire({
+                position: "center",
+                icon: "success",
+                title: "Your work has been saved",
+                showConfirmButton: false,
+                timer: 1500
+              });
+
+              e.target.reset();
+
+              setUname("");
+              setUmail("");
+              setUmessage("");
+
+        }, (error) => {
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Something went wrong!",
+              });
+        });
+    };
+
+    //form value before resetting them after the form will be submitted
+    const [uname, setUname] = useState();
+    const [umail, setUmail] = useState();
+    const [umessage, setUmessage] = useState();
+
   return (
     <>
         <div className="head-wrap">
@@ -18,9 +57,9 @@ function webhead() {
 
                 <div className="head-col profile-desc-wrap">
                     <div className="profile-name">
-                    <h1 className='display-name-mbl'> <a href="/">anonymous</a> <span><BsPatchCheckFill/></span> </h1>
+                    <h1 className='display-name-mbl'><a href="/">anonymous</a> <span><BsPatchCheckFill/></span> </h1>
                         <div className="head-opt">
-                            <h1><a href="/">anonymous</a><span><BsPatchCheckFill/></span> </h1>
+                            <h1><a href="/">anonymous</a><span><BsPatchCheckFill/></span></h1>
 
                             <button class="ig-btn" type="button" data-bs-toggle="modal" data-bs-target="#projModal">
                                 Projects <MdOutlineKeyboardArrowDown class="prj-icon" />
@@ -82,13 +121,14 @@ function webhead() {
 
                                     <div class="modal-body">
                                        <div className="message-form">
-                                            <form class="form-hadler">
-                                                <input type="text" name="username" id="" placeholder='NAME' />
-                                                <input type="email" name="username" id="" placeholder='EMAIL ADDRESS' />
-                                                <textarea name="message" id="" cols="30" rows="3" placeholder='MESSAGE'></textarea>
-                                                <div className="send-form">
+                                            <form ref={form} onSubmit={sendEmail} class="form-hadler">
+                                                <input type="text" name="user_name" placeholder='NAME' value={uname} onChange={(e) => setUname(e.target.value)} />
+                                                <input type="email" name="user_mail" placeholder='EMAIL ADDRESS' value={umail} onChange={(e) => setUmail(e.target.value)} />
+                                                <textarea name="user_message" cols="30" rows="3" placeholder='MESSAGE' value={umessage} onChange={(e) => setUmessage(e.target.value)}></textarea>
+                                                {/* <div className="send-form">
                                                     <button type="submit">SEND</button>
-                                                </div>
+                                                </div> */}
+                                                <input type="submit" value="SUBMIT ME" className='sendMessage' />
                                             </form>
                                        </div>
                                     </div>
@@ -139,7 +179,7 @@ function webhead() {
                             <p><strong>10</strong> github repositories </p>
                             <p><strong>8</strong> tech languages </p>
                             <p><strong>8</strong> personal projects </p>
-                            <p><strong>7</strong> work projects </p>
+                            <p><strong>7</strong> working projects </p>
                         </div>
                     </div>
 
@@ -206,4 +246,4 @@ function webhead() {
   )
 }
 
-export default webhead
+export default Webhead

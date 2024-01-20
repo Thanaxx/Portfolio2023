@@ -2,7 +2,7 @@ import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './pages/projects/index';
 import About from './pages/about/about';
-import Webhead from '../src/components/header/webhead';
+import WebHead from '../src/components/header/Webhead';
 import Service from './pages/services/service';
 import Contact from './pages/contacts';
 import Footer from './components/footer/footer';
@@ -10,7 +10,7 @@ import Footer from './components/footer/footer';
 function App() {
   return (
     <>
-      <Webhead/>
+      <WebHead/>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>} />

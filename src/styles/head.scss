@@ -395,20 +395,16 @@
                     text-align: center;
                 }
 
-                .send-form{
-                    text-align: center;
-
-                    button{
-                        background-color: #2b2b2b;
-                        width: 100%;
-                        align-items: center;
-                        padding: 6px 5px;
-                        color: white;
-                        font-weight: 300;
-                        margin-top: 10px;
-                        margin-bottom: 15px;
-                        font-weight: 500s;
-                    }
+                .sendMessage{
+                    background-color: #2b2b2b;
+                    width: 100%;
+                    align-items: center;
+                    padding: 6px 5px;
+                    color: white;
+                    font-weight: 300;
+                    margin-top: 10px;
+                    margin-bottom: 15px;
+                    font-weight: 600;
                 }
             }
         }

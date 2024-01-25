@@ -17,10 +17,10 @@ function footer() {
             <div className="socmed-wrap">
 
                 <div className="socmed-icons">
-                    <a href="/"><ImGithub className='soc' /></a>
+                    <a href="https://github.com/Thanaxx"><ImGithub className='soc' /></a>
                     <a href="/"><AiFillLinkedin className='soc' /></a>
-                    <a href="/"><FaInstagramSquare className='soc' /></a>
-                    <a href="/"><BiLogoFacebookSquare className='soc' /></a>
+                    <a href="https://www.instagram.com/telluhhhh/"><FaInstagramSquare className='soc' /></a>
+                    <a href="https://www.facebook.com/profile.php?id=100090235873278"><BiLogoFacebookSquare className='soc' /></a>
                 </div>
             </div>
 

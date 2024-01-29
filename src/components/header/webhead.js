@@ -217,13 +217,16 @@ function Webhead() {
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="/images/story/stry.jpg" alt="" />
+                                    <img src="/images/story/4.png" alt="" />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="/images/story/stry1.jpg" alt="" />
+                                    <img src="/images/story/1.png" alt="" />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="/images/story/stry2.jpg" alt="" />
+                                    <img src="/images/story/2.png" alt="" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/images/story/3.png" alt="" />
                                 </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

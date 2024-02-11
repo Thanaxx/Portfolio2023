@@ -226,6 +226,9 @@ function Webhead() {
                                     <img src="/images/story/2.png" alt="" />
                                 </div>
                                 <div class="carousel-item">
+                                    <img src="/images/story/2.png" alt="" />
+                                </div>
+                                <div class="carousel-item">
                                     <img src="/images/story/3.png" alt="" />
                                 </div>
                                 </div>

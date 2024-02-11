@@ -9,7 +9,7 @@ import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2';
 import 'sweetalert2/dist/sweetalert2.min.css';
 
-function webhead() {
+function Webhead() {
 
     const form = useRef();
 
@@ -250,4 +250,4 @@ function webhead() {
   )
 }
 
-export default webhead
+export default Webhead

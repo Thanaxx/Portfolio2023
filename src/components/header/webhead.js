@@ -1,4 +1,5 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
+import { useRef } from 'react';
 import {BsPatchCheckFill} from 'react-icons/bs';
 import {MdOutlineKeyboardArrowDown, MdKeyboardArrowRight} from 'react-icons/md';
 import {BsThreeDots} from 'react-icons/bs';
@@ -8,7 +9,7 @@ import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2';
 import 'sweetalert2/dist/sweetalert2.min.css';
 
-function Webhead() {
+function webhead() {
 
     const form = useRef();
 
@@ -252,4 +253,4 @@ function Webhead() {
   )
 }
 
-export default Webhead
+export default webhead

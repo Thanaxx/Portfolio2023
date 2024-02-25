@@ -25,7 +25,7 @@ function footer() {
             </div>
 
             <div className="copyright">
-                <p>© Christel 2021. All Rights Reserved.</p>
+                <p>© Christel 2024. All Rights Reserved.</p>
             </div>
         </div>
     </>

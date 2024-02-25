@@ -85,6 +85,7 @@ function Webhead() {
                                         <div class="modal-body">
                                             <div className="modal-proj-list">
                                                 <ul>
+                                                    <li>Personal Projects</li>
                                                     <li><a class="dropdown-item" href="https://nifty-bhaskara-9c7adf.netlify.app/" target='_blank' >WBLD <MdKeyboardArrowRight class="prj-icon" /></a></li>
                                                     <li><a class="dropdown-item" href="https://festive-babbage-c7450f.netlify.app/" target='_blank' >MEDCARE <MdKeyboardArrowRight class="prj-icon" /></a></li>
                                                     <li><a class="dropdown-item" href="https://zealous-thompson-fd42cd.netlify.app/" target='_blank' >Foodie <MdKeyboardArrowRight class="prj-icon" /></a></li>
@@ -92,7 +93,17 @@ function Webhead() {
                                                     <li><a class="dropdown-item" href="https://eloquent-shockley-854149.netlify.app/" target='_blank'>Badiangan <MdKeyboardArrowRight class="prj-icon" /></a></li>
                                                     <li><a class="dropdown-item" href="https://rococo-croquembouche-1d0f2e.netlify.app/" target='_blank' >NewsBreak <MdKeyboardArrowRight class="prj-icon" /></a></li>
                                                     <li><a class="dropdown-item" href="https://effortless-kheer-3ee7c5.netlify.app/" target='_blank' >NextGen <MdKeyboardArrowRight class="prj-icon" /></a></li>
-                                                </ul>
+                                                    <hr />
+                                                    <li>Work Projects</li>
+                                                    <li><a class="dropdown-item" href="https://www.lascasasfilipinas.com/" target='_blank' >Las Casas Filipinas de Acuzar <MdKeyboardArrowRight class="prj-icon" /></a></li>
+                                                    <li><a class="dropdown-item" href="https://lascasasqc.com/" target='_blank' >Las Casas Quezon City <MdKeyboardArrowRight class="prj-icon" /></a></li>
+                                                    <li><a class="dropdown-item" href="https://www.vshotel.com.ph/" target='_blank' >VS Hotel <MdKeyboardArrowRight class="prj-icon" /></a></li>
+                                                    <li><a class="dropdown-item" href="https://www.victoriasportsclub.com/" target='_blank' >Victoria Sports Club <MdKeyboardArrowRight class="prj-icon"/></a></li>
+                                                    <li><a class="dropdown-item" href="https://mariventhotels.com/" target='_blank'>Marivent Hotels and Resorts Inc. <MdKeyboardArrowRight class="prj-icon" /></a></li>
+                                                    <li><a class="dropdown-item" href="https://www.lascasasweddings.com/" target='_blank' >Las Casas Weddings <MdKeyboardArrowRight class="prj-icon" /></a></li>
+                                                    <li><a class="dropdown-item" href="https://www.lascasasmarina.com/" target='_blank' >Las Casas Marina   <MdKeyboardArrowRight class="prj-icon" /></a></li>
+
+                                                    </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -129,7 +140,7 @@ function Webhead() {
                                                 {/* <div className="send-form">
                                                     <button type="submit">SEND</button>
                                                 </div> */}
-                                                <input type="submit" value="SUBMIT ME" className='sendMessage' />
+                                                <input type="submit" value="SUBMIT" className='sendMessage' />
                                             </form>
                                        </div>
                                     </div>
@@ -191,7 +202,7 @@ function Webhead() {
                         <p>Computer Science Degree Holder</p>
                         <p>Career Service Professional Eligibility Holder</p>
                         <p>Iloilo City, Philippines</p> <br/>
-                        <p className='followers'>Followed <strong>Chris Sean, Mark Zuckerberg</strong> +108more</p>
+                        <p className='followers'>Followed <strong>Mark Zuckerberg, Ellon Musk</strong> +108more</p>
                     </div>
 
                     <div className="profile-count-b">

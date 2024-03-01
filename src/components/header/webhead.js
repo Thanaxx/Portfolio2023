@@ -52,7 +52,7 @@ function Webhead() {
             <div className="head-grid">
                 <button class="story-btn" type="button" data-bs-toggle="modal" data-bs-target="#storyModal">
                     <div className="head-col profile-img">
-                        <img src="/images/tel-ig.png" alt="portfolio profile" />
+                        <img src="/images/ig-2.png" alt="portfolio profile" />
                     </div>
                 </button>
 

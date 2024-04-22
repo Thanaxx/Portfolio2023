@@ -86,13 +86,10 @@ function Webhead() {
                                             <div className="modal-proj-list">
                                                 <ul>
                                                     <li>Personal Projects</li>
+                                                    <li><a class="dropdown-item" href="https://effortless-kheer-3ee7c5.netlify.app/" target='_blank' >NextGen <MdKeyboardArrowRight class="prj-icon" /></a></li>
                                                     <li><a class="dropdown-item" href="https://nifty-bhaskara-9c7adf.netlify.app/" target='_blank' >WBLD <MdKeyboardArrowRight class="prj-icon" /></a></li>
-                                                    <li><a class="dropdown-item" href="https://festive-babbage-c7450f.netlify.app/" target='_blank' >MEDCARE <MdKeyboardArrowRight class="prj-icon" /></a></li>
-                                                    <li><a class="dropdown-item" href="https://zealous-thompson-fd42cd.netlify.app/" target='_blank' >Foodie <MdKeyboardArrowRight class="prj-icon" /></a></li>
                                                     <li><a class="dropdown-item" href="https://naughty-ritchie-f772e5.netlify.app/" target='_blank' >FRNTR <MdKeyboardArrowRight class="prj-icon"/></a></li>
                                                     <li><a class="dropdown-item" href="https://eloquent-shockley-854149.netlify.app/" target='_blank'>Badiangan <MdKeyboardArrowRight class="prj-icon" /></a></li>
-                                                    <li><a class="dropdown-item" href="https://rococo-croquembouche-1d0f2e.netlify.app/" target='_blank' >NewsBreak <MdKeyboardArrowRight class="prj-icon" /></a></li>
-                                                    <li><a class="dropdown-item" href="https://effortless-kheer-3ee7c5.netlify.app/" target='_blank' >NextGen <MdKeyboardArrowRight class="prj-icon" /></a></li>
                                                     <hr />
                                                     <li>Work Projects</li>
                                                     <li><a class="dropdown-item" href="https://www.lascasasfilipinas.com/" target='_blank' >Las Casas Filipinas de Acuzar <MdKeyboardArrowRight class="prj-icon" /></a></li>

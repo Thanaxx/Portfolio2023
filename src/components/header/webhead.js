@@ -171,7 +171,7 @@ function Webhead() {
                                                     <ul>
                                                         <a href="/about#personalinfo"> <li>ABOUT DEV</li> </a>
                                                         <a href="/services#srvc"> <li>OFFERED SERVICES</li> </a>
-                                                        <a href="https://drive.google.com/file/d/1PFs_k3g7kMJNKT98-UEm7PiSYpTIhvjx/view?usp=sharing"> <li>RESUME / CV</li> </a>
+                                                        <a href="https://drive.google.com/file/d/1ZUqg3EPw8CcVxh09ERjTKcmnv-NcsDMq/view?usp=sharing"> <li>RESUME / CV</li> </a>
                                                         <a href="/contact#sendmessage"> <li>CONTACT</li> </a>
                                                     </ul>
                                                 </div>
